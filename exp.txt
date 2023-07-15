@@ -1,0 +1,52 @@
+Sorting visualizer.
+
+Implemented algorithms:
+1) Bubble sort
+2) Selection sort
+3) Insertion sort
+4) Merge sort
+5) Quick sort
+6) Heap sort
+
+Features:
+1) Colored representation of step being executed.
+
+   1.1) Blue:default
+   1.2) Yellow: Being compared
+   1.3) Red: Identified as in incorrect position and to be moved
+   1.4) Green: In correct position
+
+2) 3 Controls for visualizations
+
+      2.1) Speed of visualization (5 speed levels)
+      2.2) Data size ()
+      2.3) Generation of new data (Randomly generate new data).
+
+4) Time and Space complexity of algorithm being visualized.
+
+
+
+
+index.html ( Explain )
+
+-> In the nav create a div to  set array size and speed of algo.
+-> Create another and declare the sorting algo in UI.
+-> Create 2 section 1 at the left another at the right.
+-> The left section to show the Time Complexity. (Dynamically)
+-> The right section to show the space complexity.(Dynamically)
+-> Create script file for all sorting algo and 1) main.js 2) visualization js
+
+
+Bubble_Sort.js
+--------------
+
+-> In html Time complexty in p tag id is defined.
+   Select that by "getElementById".innerText=O(n);
+//The innerText property returns: Just the text content of the element 
+
+-> Similarly for space complexity
+
+-> set time out for delay 
+   
+   c_delay = 0;
+
